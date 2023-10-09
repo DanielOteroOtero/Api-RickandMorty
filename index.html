@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html style="height: 100%;" lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Pagina Principal</title>
+</head>
+
+<body style="background: linear-gradient(to left, rgb(41, 41, 41),10%,rgb(23, 105, 0),94%,rgb(41, 41, 41))">
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        
+        <div class="container mt-3">
+            <label for="personajes">Filtrar por personaje:</label>
+            <select id="personajes" class="form-select">
+                <option value="todos">Todos los personajes</option>
+            </select>
+            <button id="filtrar" class="btn btn-primary">Filtrar</button>
+        </div>
+    </nav>
+
+    <header>
+        <h1
+            style="text-align: center; margin-top: 10mm; color: white; font-size: 50px; font-family: Georgia, 'Times New Roman', Times, serif;">
+            RICK Y MORTY</h1>
+    </header>
+
+    <main id="centro">
+        <div class="container img-fluid">
+            <div class="row mt-5">
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark" id="card1">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre1"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/rick_sanchez.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark" id="card2">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre2"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/morty_smith.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 justify-content-center" id="card3">
+                    <div class="card border-dark" id="card3">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre3"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/summer smith.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card4">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre4"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/beth smith.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card5">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre5"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/jerry smith.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card6">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre6"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/abadango cluster princess.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card7">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre7"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/abradolf lincler.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card8">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre8"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/Adjudicator rick.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card9">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre9"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/agency director.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card10">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre10"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/alan rails.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card11">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre11"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/Albert_Einstein.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card12">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre12"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/alexander.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card13">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre13"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/Alien_Googah.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card14">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre14"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/Alien_Morty.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-3 justify-content-center">
+                    <div class="card border-dark " id="card15">
+                        <div style="background-color: rgb(0, 5, 100); color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;"
+                            class="card-header text-center" id="nombre15"></div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="imgs/Alien_Rick.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="card" data-bs-theme="dark">
+                    <h1 class="card-header text-center">Nuestros desarrolladores</h1>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="card col-12">
+                                    <div class="card-header text-center">
+                                        <h2>Jesus Pallares</h2>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <p class="card-text">Hola, me llamo Jesus Mauricio Pallares Galindo y soy
+                                            estudiante de
+                                            Ingenieria de Sistemas en la Universidad de la Costa (CUC). Soy una persona
+                                            muy
+                                            empatica, divertida, extrovertida y autodidacta. Puedes seguirme en mis
+                                            redes sociales y conocer mas sobre mi.</p>
+                                        <button style="margin: 5px;"
+                                            onclick="window.open('https://www.facebook.com','_blank');" type="button"
+                                            class="btn btn-outline-light"><b class="bi bi-facebook">
+                                                Facebook</b></button>
+                                        <button style="margin: 5px;"
+                                            onclick="window.open('https://www.instagram.com','_blank');" type="button"
+                                            class="btn btn-outline-light"><b class="bi bi-instagram">
+                                                Instagram</b></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="card col-12">
+                                    <div class="card-header text-center">
+                                        <h2>Daniel Otero</h2>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <p class="card-text">
+                                            Hola, mi nombre es Daniel David Otero Otero y soy estudiante de ingenieria
+                                            de sistemas de la Universidad de la Costa (CUC), normalmente me gusta dormir
+                                            y hacer actividades en casa, pero me encanta la programacion y espero a ser
+                                            el mejor de todos, si quieres puedes seguirme en mis redes sociales.
+                                        </p>
+                                        <button style="margin: 5px;"
+                                            onclick="window.open('https://www.facebook.com','_blank');" type="button"
+                                            class="btn btn-outline-light"><b class="bi bi-facebook">
+                                                Facebook</b></button>
+                                        <button style="margin: 5px;"
+                                            onclick="window.open('https://www.instagram.com','_blank');" type="button"
+                                            class="btn btn-outline-light"><b class="bi bi-instagram">
+                                                Instagram</b></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
